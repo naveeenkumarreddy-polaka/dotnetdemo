@@ -6,7 +6,7 @@ dotnet = 'path\\to\\dotnet.exe'
 stages {
 stage ('Checkout') {
             steps {
-                 git credentialsId: 'userId', url: 'https://github.com/NeelBhatt/SampleCliApp',branch: 'master'
+                 git credentialsId: 'testgit', url: 'https://github.com/naveeenkumarreddy-polaka/dotnetdemo.git'
             }
 }
 stage ('Restore PACKAGES') {     
